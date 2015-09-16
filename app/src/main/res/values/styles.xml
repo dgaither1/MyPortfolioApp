@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="PortfolioTheme" parent="android:Theme.Material">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/PortfolioTheme.Button</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <!--<style name="PortfolioTheme.Button">-->
+        <!--<item name="textAppearance">@style/TextAppearance.Material.Widget.Button.Inverse</item>-->
+    <!--</style>-->
+
+    <style name="PortfolioTheme.Button" parent="@android:style/Widget.Material.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>
